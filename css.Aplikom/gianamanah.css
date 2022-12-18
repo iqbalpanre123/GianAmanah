@@ -1,0 +1,249 @@
+* {
+  color: #C0B283;
+    font-family: "Rubik", sans-serif;
+  }
+  /* BODY */
+  body {
+    background-color: #192231;
+    margin: 0;
+  }
+  /* HEADER */
+  
+  .header {
+    background-color: #192231;
+    DDBCD;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 6%;
+    padding: 15px 5px;
+    font-weight: 600;
+    
+  }
+  .header div {
+    display: inline-block;
+  }
+  .navbar {
+    float:none;
+  }
+  .navbar div {
+    margin: 20px;
+  }
+  .navbar a {
+    text-decoration: none;
+    cursor: default;
+    color: white;
+  }
+  /* MAIN */
+  .main {
+    width: 100%;
+    margin-top: 100px;
+  }
+  /* hero */
+  .hero {
+    padding: 20px;
+    display: grid;
+    font-size: 72px;
+    font-weight: 600;
+    grid-template-columns: 35% 65%;
+  }
+  .img{
+    width: 250px;
+  }
+  .gian{
+    height: 500px;
+  }
+
+.mahasiswa {
+  font-size: x-large;
+  margin-top: 0px
+  ;
+}
+.desc p {
+  font-size: 100px;
+  
+}
+.mahasiswa h1 {
+  margin: 0px;
+  font-size: 100px;
+  padding-top: 15%;
+}
+
+  .hello div {
+    font-weight: normal;
+    font-size: 60px;
+    padding-top: 2%;
+  }
+  .hello a {
+    cursor: default;
+  }
+
+  .hero .desc {
+    padding-top: 1%;
+    font-size: 20px;
+  }
+  
+  .image {
+    display: inline;
+  }
+  .hero .image img {
+    border-radius: 15%;
+    height: 420px;
+  }
+
+  .hero button {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #f7f7f7;
+    border: 2px solid #ffb846;
+    width: 50%;
+  }
+  /* ABOUT */
+  .about {
+    margin-top: 0%;
+    background-color: #EDDBCD;
+    padding: 60px 20px;
+    cursor: default;
+    display: grid;
+    font-size: 20px;
+    text-align: center;  
+  }
+  .about .desc,
+  .about .desc p,
+  .about h2 {
+    color: #202429;
+    font-weight: normal;
+    font-size: 25px;
+  }
+  .about h2 {
+    font-weight: 600;
+    margin: 0;
+    font-size: 50px;
+    padding-bottom: 30px ;
+  }
+  .about h3 {font-size: 40px;
+    color: #202429;
+    padding-left: 0%;
+    margin: 50px 0px 10px 0px;}
+  .about .image img {
+    height: 300px;
+    border-radius: 15%;
+    margin: 0;
+    /* margin-right: 20%; */
+  }
+  .hobby table {
+    margin: 0;
+    padding: 0px 20px
+  }
+  .hobby table td {
+    width: 100px;
+    text-align: center;
+    
+  }
+  /* PENDIDIKAN */
+  .edu {
+    padding: 40px 20px;
+    font-size: 20px;
+  }
+.edu h2 {text-align: center;
+font-size: 40px;}
+  .edu table tr td {
+    text-align: center;
+    padding: 50px;
+  }
+  .edu .desc table tr td p {
+    margin: 0;
+    font-size: larger;
+    text-align: center;
+  }
+  .edu-content {
+    display: grid;
+
+    margin-top: 20px;
+  }
+  .edu-content .image img,
+  .skill-content .image img {
+    height: 300px;
+    margin: 0;
+  }
+  /* SKILL */
+
+    
+  
+  
+.materi {
+  font-size: 20px;
+  text-align: justify;
+  border: 1px solid #ffffff;
+  }
+.materi h1 {margin: 20px ; 
+            text-align: center;
+          padding-left: 240px;}
+
+.materi table tr td {margin-top: 10px;
+  padding: 20px 5px;
+  border: 1px solid #ffffff;
+  text-align: center;}
+
+  /* RESPONSIVE */
+  @media screen and (max-width: 768px) {
+    .header {
+      height: 20px;
+      width: 100%;
+      font-size: 18px;
+      position: fixed;
+      vertical-align: middle;
+    }
+    .main {
+      margin-top: 40px;
+    }
+    .navbar {
+      padding: 4px 0 0 0;
+      font-size: 14px;
+      font-weight: normal;
+    }
+    .header div {
+      display: inline-block;
+    }
+    .header{background-color: #192231;
+    padding: 0px;
+    height: 50px;} 
+
+
+    .hero,
+    .about,
+    .edu-content,
+    .materi {
+      grid-template-columns: none;
+      grid-template-rows: repeat(2, auto);
+    }
+    .hero .image {
+      grid-row-start: 1;
+    }
+    .hero .image img {
+      height: 300px;
+      display: none;
+    }
+    .hello div {
+      font-size: 30px;
+    }
+    .hero .desc {
+      font-size: 18px;
+    }
+    .edu table tr td {
+      padding: 8px;
+    }
+  
+    .edu-content .image img {
+      height: 200px;
+    }
+    .skill-content .image img {
+      height: 200px;
+    }
+  }
+  .materi h1 {padding: 0px;}
+  .navbar {padding: 0px;
+          margin-top: 0px;;}
